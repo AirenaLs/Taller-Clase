@@ -6,6 +6,8 @@ function calcularResultado() {
 
     if (operacion === "suma") {
         resultado = num1 + num2;
+    } else if (operacion === "resta") {
+        resultado = num1 - num2;
     } else if (operacion === "multiplicacion") {
         resultado = num1 * num2;
     } else if (operacion === "division") {
